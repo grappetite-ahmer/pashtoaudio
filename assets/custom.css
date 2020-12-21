@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+
+/*
+    ===================================
+    Bootstrap-Vue - Custom CSS
+    ===================================
+*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: #eee;
+}
+a {
+    color: #333;
+}
+a:hover {
+    color: #dc3545;
+}
+.navbar {
+    justify-content: NORMAL;
+}
+.navbar-brand {
+    margin-left: 1rem;
+}
+.card-body {
+    padding: 0.5rem;
+}
+.card-body, .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card-title a {
+    color: #333;
+    text-decoration: none;
+}
+.card-title a:hover {
+    color: #dc3545;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+.btn-outline-danger:focus, .btn-outline-danger.focus {
+    box-shadow: none;
+}
+.btn:focus, .btn.focus {
+    box-shadow: none;
+}
+/*
+    ===================================
+    End - Bootstrap-Vue - Custom CSS
+    ===================================
+*/
+:focus {
+    outline: none;
+}
+
+audio {
+    width: 100%;
+}
+
+.app-links {
+    justify-self: end;
+}
+
+.drawer-toggle .bar {
+    width: 100%;
+    height: 3px;
+    margin: 0.2rem 0;
+    background-color: white;
+}
+
+.drawer-toggle {
+    display: flex;
+    justify-self: end;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width: 35px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 5px 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.nav-item a:hover,
+.nav-item a:active{
+    color: #333;
+}
+
+.sidenav-container {
+    height: 100%;
+    width: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    background-color: #dc3545;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 30px;
+    border-right: 5px solid #333;
+}
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.slide-side-enter-active,
+.slide-side-leave-active {
+    transition: all 0.3s ease-out;
+}
+.slide-side-enter,
+.slide-side-leave-to {
+    transform: translateX(-100%);
+}
+
+.heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #e4e4e4;
+}
+.heading h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+.sub-heading h2 {
+    font-size: 1.2rem;
+}
+
+footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #fff;
+    border-top: .05rem solid #e5e5e5;
+}
